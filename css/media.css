@@ -109,16 +109,16 @@
         padding: 70px 5px;
 
     }
-    .card__team{
-        flex-wrap: wrap;
-    }
-}
+   
 
 @media (max-width: 768px){
     .section__header{
         padding: 20px 0;
     }
-
+    .card__team{
+            flex-wrap: wrap;
+    }
+    }
     .hidden-menu{
         display: block;
     }
