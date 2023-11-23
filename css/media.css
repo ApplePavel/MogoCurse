@@ -1,0 +1,380 @@
+
+
+@media (max-width: 1024px){
+    .service__blocks{
+        gap: 75px;
+    }
+    .header {
+        height: 100px;
+        margin-bottom: 40px;
+      }
+    .wrapper{
+        width: 100%;
+    }
+    h1{
+        font-size: 96px;
+    }
+    .nav__item{
+        font-size: 13px;
+    }
+    .poster__title{
+        font-size: 48px;
+    }
+    .section__divider{
+        width: 115px;
+    }
+    .button--title{
+        width: 318px;
+        height: 55px;
+        font-size: 18px;
+    }
+    .slider__num{
+        font-size: 24px;
+    }
+    .title__wrapper{
+        width: 70%;
+    }
+    .section__name,
+    .section__title{
+        font-size: 24px;
+    }
+    .section__devider{
+        width: 148px;
+      }
+    .futures__number {
+        font-size: 48px; 
+    }
+    .futures__text,
+    p.name,
+    .accordion__title,
+    .message__lyrics,
+    .card__name,
+    .works__title,
+    .reviews__name,
+    .blog__title,
+    .footer__title,
+    .card__text{
+        font-size: 18px;
+    }
+    .sliders div,
+    p.descr,
+    .section__descr,
+    .accordion__content,
+    .card__prof,
+    .works__text,
+    .reviews__prof,
+    .reviews__text,
+    .blog__text,
+    .footer__text,
+    .footer__social-header b:last-child,.footer__social-header,
+    .blog__date,
+    .subscribe__input,
+    .subscribe__btn,
+    .f-blogs__title,
+    .slider__info
+    {    font-size: 14px;
+    }
+    .photo{
+        width: 50px;
+        height: 50px;
+        background-size:contain;
+    }
+    .message--square{
+        width: 115px;
+        height: 115px;
+    }
+    .quote__owner,
+    .footer__social-header b:first-child,
+    .blog__date-day{
+        font-size: 24px;
+    }
+    .logos__item,
+    .logos__item img{
+        width: 80px;
+        height: 80px; 
+    }
+    .blog__date{
+        line-height: 20px;
+    }
+    .blog-stat__item,
+    .f-blogs__date,
+    .f-instagram__text,
+    .footer__social-content{
+        font-size: 12px;
+    }
+    .f-blogs__img{
+        height: 70px;
+    }
+    .futures__blocks{
+        padding: 70px 5px;
+
+    }
+    .card__team{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px){
+    .section__header{
+        padding: 20px 0;
+    }
+
+    .hidden-menu{
+        display: block;
+    }
+    .futures__blocks{
+        padding: 45px 30px;
+    }
+    .futures__container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .futures__blocks{
+        border: 0;
+        border-bottom: 1px solid #fff;
+    }
+    .futures__blocks:first-child{
+        border:0;
+        border-bottom: 1px solid #fff;
+    }
+    .service__blocks{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 75px 0px;
+    }
+    .reviews__item{
+        padding: 0px 10px 0 100px;
+    }
+    .reviews__img {
+        width: 80px; 
+        height: 80px;
+        left: 0;
+    }
+    .reviews__devider{
+
+    }
+    .blog{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .blog__item{
+        width: 40%;
+    }
+    .footer__col--third {
+        width: 100%;
+        max-width: 233px;
+    }
+    .footer__col--second {
+        width: 100%;
+        max-width: 317px;
+    }
+    .footer__col--first {
+        max-width: 317px;
+    }
+    .futures__text{
+        min-width: 110px;
+    }
+    .title__wrapper{
+        width: 95%;
+    }
+    .nav__list{
+        display: none;
+    }
+    .footer__inner{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+    .f-blogs__item{
+        gap: 5px;
+    }
+    .footer__col--third {
+        max-width: 370px;
+    }
+   
+}
+@media (max-width: 694px){
+    .f-instagram__text,
+    .footer__title,
+    .footer__logo,
+    .footer__social-header{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 600px){
+
+    .dots{
+        padding-bottom: 20px;
+        text-align: center;
+        display:block;
+    }
+    .title__wrapper{
+        width: 70vh;
+    }
+    .futures__text{
+    min-width: 65px;
+    }
+    .poster__title{
+        font-size: 36px;
+    }
+    h1{
+        font-size: 48px
+    }
+    .futures__text,
+    p.name,
+    .accordion__title,
+    .message__lyrics,
+    .card__name,
+    .works__title,
+    .reviews__name,
+    .blog__title,
+    .footer__title,
+    .card__text{
+        font-size: 18px;
+    }
+    .sliders div,
+    p.descr,
+    .section__descr,
+    .accordion__content,
+    .card__prof,
+    .works__text,
+    .reviews__prof,
+    .reviews__text,
+    .blog__text,
+    .footer__text,
+    .footer__social-header b:last-child,.footer__social-header,
+    .blog__date,
+    .subscribe__input,
+    .subscribe__btn,
+    .f-blogs__title
+    {    font-size: 14px;
+    }
+    .unique .section__name{
+        font-size: 30px;
+    }
+    .unique .section__title{
+        font-size: 36px;
+    }
+    .service__blocks{
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        gap: 10px;
+    }
+    .photo{
+        margin: 0 auto;
+    }
+    .logos__item img{
+        height: 86px;
+        width:86px;
+    }
+    .logos{
+        flex-wrap: wrap;
+    }
+    
+
+
+    .logos__item{
+        width: 50%;
+    }
+    .logos__item:nth-child(3n){
+        width: 100%;
+    }
+    .message__text{
+        grid-row: none;
+    }
+    .message__right-arrow,
+    .message__left-arrow{
+        display: none;
+    }
+    .message__block{
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .message.message--round{
+        margin: 0 auto;
+    }
+    .message--square{
+        display: none;
+    }
+    .slider__info,
+    .slider__num{
+        display: none;
+    }
+    .slider1{
+        border-color:#F38281;
+    }
+    .wedo{
+        flex-direction: column;
+        align-items: center
+    }
+    .accordion__body {
+        height: 138px;
+        overflow: auto;
+        padding: 20px;
+        overflow-x: hidden;
+    }
+    .accordion__title{
+        gap: 5px;
+    }
+    .wedo__item{
+        width: 100%;
+    }
+    .reviews{
+    flex-direction: column;
+    }
+    .blog__item{
+        max-width:90%;
+        width: 100%;
+    }
+    .blog__date{
+        left: 0;
+    }
+    .reviews__item {
+        width: 100%;
+        padding: 0;
+    }
+    .reviews__img{
+        display: block;
+        position: static;
+        margin: 0 auto;
+    }
+    .reviews__content{
+        padding: 20px 0;
+        text-align: center;
+    }
+    .reviews__devider{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .works__col{
+        flex: none;
+        width: 50%;
+    }
+    .collage{
+        flex-wrap: wrap;
+    }
+
+    .team .card__text{
+        transition: none;
+        width:auto;
+        opacity: 1;
+        bottom: 0px;
+        right: 0;
+        top: unset;
+        left: unset;
+    transform: translate(0, 0);
+    }
+    .team .card__block:hover .card__img{
+        transform: translate(0, 0);
+        background: none;
+    }
+    .team .card__wrapper{
+        background: none;
+    }
+    .team .card__block:hover .card__img img { opacity: 1;
+    }
+}
+    
